@@ -1,14 +1,13 @@
 # How_to_install_sqlserver_in_ubuntu
 
 refference from [Microsoft Document how to install sqlserver in ubuntu](https://docs.microsoft.com/en-US/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
-# example script
 this project has Vagrantfile.
+
 ```shell
 vagrant up
 ```
-sqlserver-ubuntu environment is being launch.
 
-# install sample Database 
+sqlserver-ubuntu environment is being launch.
 
 ## AdventureWorks2019 and AdventureWorksDW2019
 
@@ -38,9 +37,9 @@ enable_WideWorldImporters
 disable_WideWorldImporters
 ```
 
-# if you want to create vagrant box from vagrant file.
+## if you want to create vagrant box from vagrant file
 
-```
+```bash
 # stop vagrant environment
 vagrant halt
 
